@@ -4,8 +4,8 @@
 <head>
     <title>Crystals Collector</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/images/" />
+    <link rel="stylesheet"  href="assets/css/style.css" />
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="assets/images/" /> -->
     <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oleo+Script:700" rel="stylesheet">
 
@@ -17,21 +17,21 @@
         <p>The object of the game is to collect the correct number of crystals based on their individual values. Good
             luck!</p>
 
-        <h3> Number to Guess: <span id="number to guess"></span></h3>
+        <h3> Number to Guess: <span id="number_to_guess"></span></h3>
 
         <div id="crystals">
 
             <!-- insert ctystal images here -->
-            <img src="assets/images/pastel.jpg" class="center" alt="Pastel" width="150" height="150">
+            <img src="assets/images/pastel.jpg" class="center" id="pastel" alt="Pastel" width="150" height="150">
 
 
-            <img src="assets/images/hashnu.jpg" class="center" alt="Hashnu" width="150" height="150">
+            <img src="assets/images/hashnu.jpg" class="center" id="hashnu"alt="Hashnu" width="150" height="150">
 
 
-            <img src="assets/images/quartz.jpg" class="center" alt="Quartz" width="150" height="150">
+            <img src="assets/images/quartz.jpg" class="center" id= "quartz" alt="Quartz" width="150" height="150">
 
 
-            <img src="assets/images/varied.jpg" class="center" alt="Varied" wwidth="150" height="150">
+            <img src="assets/images/varied.jpg" class="center" id= "varied" alt="Varied" width="150" height="150">
 
         </div>
 
@@ -44,15 +44,8 @@
         <h4>Losses: </h4>
     </div>
 
-    <script type="text/javascript">
-
-
-
-
-
-
-
-    </script>
+    <script type="text/javascript" src="assets/javascript/game.js">
+   </script>
 
 
 
