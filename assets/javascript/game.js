@@ -38,13 +38,12 @@ for (var i = 0; i < numberOptions.length; i++) {
 //     // Using the .attr("data-crystalvalue") allows us to grab the value out of the "data-crystalvalue" attribute.
 //     // Since attributes on HTML elements are strings, we must convert it to an integer before adding to the counter
 
-//     var crystalValue = ($(this).attr("data-crystalvalue"));
-//     crystalValue = parseInt(crystalValue);
-//     // We then add the crystalValue to the user's "counter" which is a global variable.
-//     // Every click, from every crystal adds to the global counter.
-//     counter += crystalValue;
+    var crystalValue = ($(this).attr("data-crystalvalue"));
+    crystalValue = parseInt(crystalValue);
+    // Every click, from every crystal adds to the global counter.
+    counter += crystalValue;
 
-    // scoreing
+    // scoring
     alert("New score: " + counter);
 
     if (counter === targetNumber) {
