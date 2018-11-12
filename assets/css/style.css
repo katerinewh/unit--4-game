@@ -2,15 +2,32 @@ body {
     background-image: url("../images/background.jpg ");
     background-repeat: no-repeat;
     background-position: bottom;
+    background-size: 1600px 438px;
     background-color: black;
     color: darkturquoise;
     font-family: 'Marck Script', cursive;
     font-size: 40px;
 }
-
-
-.crystal-image {
-    width: 300px;
-    height: 300px;
+h1{
+    color: aliceblue
 }
+
+h3 {
+    text-align: center;
+    color: aliceblue;
+
+}
+ h4 {
+     color:black;
+     font-size: 60px;
+     /* font-family: 'Oleo Script', cursive; */
+    text-indent:750px;
+     
+ }
+img{
+    text-align: center;
+}
+ .crystals{
+   /* center crystal buttons */
+ }
 
