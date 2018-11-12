@@ -1,8 +1,8 @@
 body {
     background-image: url("../images/background.jpg ");
     background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 1600px 438px;
+    background-position: center;
+    background-size: 1600px 340px;
     background-color: black;
     color: darkturquoise;
     font-family: 'Marck Script', cursive;
@@ -18,15 +18,18 @@ h3 {
 
 }
  h4 {
-     color:black;
+     color:aliceblue;
      font-size: 60px;
      /* font-family: 'Oleo Script', cursive; */
-    text-indent:750px;
-     
  }
-img{
-    text-align: center;
+
+ .center {
+margin-top: 100px;
+    margin-left: 90px;
+    margin-right: 60px;
+    
 }
+
  .crystals{
    /* center crystal buttons */
  }
