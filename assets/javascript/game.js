@@ -3,7 +3,9 @@ var targetNumber = Math.floor(Math.random() * 120 + 1);
 console.log(targetNumber)
 $("#number_to_guess").text(targetNumber);
 var wins = 0;
+$("#wins").text(wins);
 var losses = 0;
+$("#losses").text(losses);
 
 
 
@@ -21,8 +23,10 @@ $("#quartz").attr("data-value", quartz)
 $("#varied").attr("data-value", varied)
 
 function reset() {
-    computerGuess = [Math.floor(Math.random())];
-    console.log(computerGuess);
+    var targetNumber = Math.floor(Math.random() * 120 + 1);
+    console.log(targetNumber)
+    $("#number_to_guess").text(targetNumber);
+    
 }
 // //  hardcoded HTML elements
 // $(".center").on("click", function(event){
@@ -39,6 +43,7 @@ $(".center").click(function (event) {
         alert("You win!");
         // update wins
         wins++;
+        $("#wins").text(wins);
         reset();
 
     }
@@ -47,6 +52,7 @@ $(".center").click(function (event) {
         alert("You lose!!");
         // update losses
         losses++;
+        $("#losses").text(losses);
         reset();
     }
 });
